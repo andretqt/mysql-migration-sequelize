@@ -1,0 +1,26 @@
+{
+  "name": "test-pkg",
+  "version": "1.0.0",
+  "description": "migration using sequelize pkg",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andretqt/mysql-migration-sequelize.git"
+  },
+  "author": "andre torquati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andretqt/mysql-migration-sequelize/issues"
+  },
+  "homepage": "https://github.com/andretqt/mysql-migration-sequelize#readme",
+  "dependencies": {
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}
